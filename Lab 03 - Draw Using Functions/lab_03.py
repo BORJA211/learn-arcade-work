@@ -118,9 +118,9 @@ def on_draw(delta_time):
 
     # Add one to the x value, making the snow person move right
     # Negative numbers move left. Larger numbers move faster.
-    on_draw.Mercedes_Benz_car_x += 1
-    on_draw.Ferrari_car_x += 1
-    on_draw.Red_Bull_Racing_car_x += 1
+    on_draw.Mercedes_Benz_car_x += 4
+    on_draw.Ferrari_car_x += 6
+    on_draw.Red_Bull_Racing_car_x += 8
 
 
 # Create a value that our on_draw.Mercedes_Benz_car_x will start at.
